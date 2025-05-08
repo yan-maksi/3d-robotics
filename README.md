@@ -4,8 +4,11 @@ This project demonstrates a 2D robotic arm simulation that uses both analytical 
 
 
 
-https://github.com/user-attachments/assets/e02434f9-8f6e-423d-afd1-0962eb0c81e2
+
+https://github.com/user-attachments/assets/484b8aed-7814-403d-a601-326965e77c4d
 
 
-<img width="456" alt="Screenshot 2025-05-08 at 9 16 35 AM" src="https://github.com/user-attachments/assets/1e27bcb3-5de0-4caa-95cd-18f8c0815ae8" />
+<img width="456" alt="Screenshot 2025-05-08 at 9 16 35 AM" src="https://github.com/user-attachments/assets/74d7dfe3-f1ac-442b-89fe-04081e19b2d5" />
+
+
 
