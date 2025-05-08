@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robótica e IA con TFJS</title>
+  <!-- TensorFlow.js y p5.js -->
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.15.0/dist/tf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.3/p5.min.js"></script>
+  <!-- MQTT.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="controles">
+    <h3>Seleccionar modo de resolución:</h3>
+    <label>
+      <input type="radio" name="modo" value="analitica" checked> Solución Analítica
+    </label>
+    <label>
+      <input type="radio" name="modo" value="ia"> Solución con IA
+    </label>
+    <div id="status">Estado MQTT: No conectado</div>
+  </div>
+
+  <div id="contenedor">
+    <div id="simulacion"></div>
+    <div id="datos"></div>
+  </div>
+
+  <script src="robot-model.js"></script>
+  <script src="mqtt-client.js"></script>
+  <script src="simulation-sketch.js"></script>
+  <script src="data-sketch.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
